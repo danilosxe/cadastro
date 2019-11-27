@@ -23,7 +23,7 @@ $msg = time();
 $msg = wordwrap($msg,70);
 
 // send email
-mail("daniloesports@gmail.com","My subject",$msg);
+mail("fulano@gmail.com","My subject",$msg);
 }else{
 $ms = "email não cadastrado"; 
 
